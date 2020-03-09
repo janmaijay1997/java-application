@@ -23,6 +23,8 @@ public class UserControllerImpl implements UserController {
 	
 	@Override
 	public User save( @RequestBody User user) {
+		System.out.println("sd");
+
 		return userOperation.save(user);
 		
 	}
